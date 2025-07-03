@@ -1,0 +1,20 @@
+{
+    "name": "jwrobbs/wpddw-site-info-module",
+    "description": "Site Info module for WP Dev Dashboard Widget: provides site environment info as a dashboard table.",
+    "type": "wordpress-plugin-module",
+    "license": "Unlicense",
+    "autoload": {
+        "psr-4": {
+            "WPDevDashboardWidget\\Modules\\SiteInfo\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "authors": [
+        {
+            "name": "Cascade AI (on behalf of jwrobbs)",
+            "email": "noreply@example.com"
+        }
+    ]
+}

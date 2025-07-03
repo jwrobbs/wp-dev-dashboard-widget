@@ -1,0 +1,24 @@
+{
+    "name": "jwrobbs/wp-dev-dashboard-widget",
+    "description": "Modular, extensible WordPress dashboard widget plugin with PSR-4 autoloading.",
+    "type": "wordpress-plugin",
+    "license": "Unlicense",
+    "autoload": {
+        "psr-4": {
+            "WPDevDashboardWidget\\": "src/",
+        "WPDevDashboardWidget\\Modules\\SiteInfo\\": "modules/site_info/src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "*"
+    },
+    "authors": [
+        {
+            "name": "Cascade AI (on behalf of jwrobbs)",
+            "email": "noreply@example.com"
+        }
+    ]
+}
